@@ -1,0 +1,1 @@
+for number in range(1,int(input("enter the limit "))+1):print("fizzbuzz") if number%15==0 else print("buzz") if number%5==0 else print("fizz") if number%3==0 else print(str(number))
